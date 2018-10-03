@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.16rem;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+.toubu{
+    width: 100%;
+    height: 3.35rem;
+    padding: 0.4rem 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    background: url("../img/gerenzhongxin.png");
+    background-size: cover;
+}
+.toubu .daohanglan{
+    width: 100%;
+    height: 0.88rem;
+    display:flex;
+    justify-content: space-between;
+}
+.daohanglan i{
+    font-size: 0.44rem;
+    line-height: 0.88rem;
+    color: #ffffff;
+}
+.toubu .zhong{
+    width: 3rem;
+    height: 0.88rem;
+}
+.zhong .shang{
+    width: 100%;
+    height: 0.44rem;
+}
+.zhong .xia{
+    width: 100%;
+    height: 0.44rem;
+}
+.zhong .shang .zi{
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.44rem;
+    color: #ffffff;
+    display: block;
+}
+.zhong .xia .mu{
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.44rem;
+    color: silver;
+    display: block;
+}
+.grxx{
+    width: 100%;
+    height: 2.1rem;
+    display: flex;
+    align-items: center;
+}
+.grxx .nei{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grxx .nei .tu{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background:url("../img/xion.png");
+    background-size: cover;
+}
+.grxx .nei .youzhong{
+    width:5.3rem ;
+    height: 1.04rem;
+}
+.youzhong h1{
+    color: white;
+}
+.youzhong .yjt1 i{
+    color: white;
+    font-size:0.44rem;
+    float: right;
+}
+.youzhong p i{
+    color: white;
+}
+.youzhong p{
+    color: white;
+    margin-top: 0.4rem;
+}
+.xia{
+    width: 100%;
+    height: 9.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.xia .qianbao{
+    width: 100%;
+    height: 1.2rem;
+    border-bottom: 0.04rem solid #e0dddb;
+    display: flex;
+    justify-content: center;
+}
+.xia .qianbao .kuai{
+    width: 33%;
+    border-right: 0.04rem solid #e0dddb;
+}
+.xia .qianbao .kuai1{
+    border-right: 0;
+}
+.xia .qianbao .kuai p{
+    text-align: center;
+    margin-top: 0.25rem;
+    font-size: 0.24rem;
+}
+.xia .qianbao .kuai .qian{
+    margin-top: 0;
+}
+.xia .qianbao .kuai .jin{
+    margin-top: 0;
+}
+.xia .qianbao .kuai .youhui{
+    margin-top: 0;
+}
+.shdz{
+    width: 100%;
+    height: 0.96rem;
+    border-bottom: 0.04rem solid #e0dddb;
+    display: flex;
+    align-items: center;
+}
+.shdz i{
+    color: skyblue;
+    font-size: 0.44rem;
+    line-height: 0.96rem;
+}
+.yk1{
+    width: 6.42rem;
+    height: 0.6rem;
+    margin-left: 0.16rem;
+}
+.yk1 i{
+    float: right;
+    display: block;
+    margin-top: -0.5rem;
+    color: #4b4440;
+}
+.yk1 a{
+    display: block;
+}
+.xiadaohang{
+    width: 100%;
+    height: 0.98rem;
+    background-image: url("../img/juxing2.png");
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.kong{
+    width: 100%;
+    height: 0.98rem;
+    background: #ffffff;
+
+}
+.kuang{
+    width: 100%;
+    height: auto;
+
+}
+.xiadaohang .xiao1{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+.xiao1 i{
+    display: block;
+    font-size: 0.4rem;
+    color: #ffffff;
+    margin-top: 0.08rem;
+    margin-bottom: 0.02rem;
+}
+.xiao1 p{
+    color: #ffffff;
+}

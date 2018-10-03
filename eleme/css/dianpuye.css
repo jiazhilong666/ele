@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.16rem;
+    color: #000000;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+.toubu{
+    width: 100%;
+    height: 5.5rem;
+    background: greenyellow;
+    padding: 0.4rem 0.24rem;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url("../img/beijing.png");
+    background-size: cover;
+    position: relative;
+}
+.toubu .daohanglan{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+}
+.toubu .daohanglan .youkuang{
+    width: 1.62rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.toubu .daohanglan .zuokuang{
+    width: 0.24rem;
+    height: 100%;
+}
+.toubu .daohanglan .youkuang .gengduo {
+    width: 0.54rem;
+    height: 100%;
+    display: block;
+}
+.toubu .daohanglan i{
+    font-size: 0.5rem;
+    line-height: 0.88rem;
+    color: #ffffff;
+    text-align: center;
+}
+.toubu .daohanglan .zuokuang .zuojiantou{
+    margin-left: -0.15rem;
+}
+.toubu .dianbiao{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 0.2rem;
+    border: 0.02rem solid #d1cecd;
+    background-image: url("../img/dianbiao.png");
+    background-position: -0.3rem;
+    background-size: cover;
+    position: absolute;
+    top: 4.16rem;
+    left: 0.6rem;
+}
+.toubu .dianxiangping {
+    width: 4rem;
+    height: 1.3rem;
+    margin: 3rem 2.3rem;
+}
+.toubu .dianxiangping .dianxq h3{
+    font-size: 0.29rem;
+    color: #ffffff;
+}
+.toubu .dianxiangping .dianxq .li1{
+    font-size: 0.2rem;
+    color: salmon;
+    margin-top: 0.1rem;
+}
+.toubu .dianxiangping .dianxq .li2{
+    font-size: 0.2rem;
+    color: lightseagreen;
+    margin-top: 0.1rem;
+}
+.zong{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items:flex-end;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.1rem solid #d8d6d5;
+}
+.zong .zi{
+    /*width: 100%;*/
+    height: 0.5rem;
+    /*background: yellow;*/
+    display: flex;
+    justify-content:space-around;
+
+}
+.zong .zi li{
+    width: 2.5rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    position: relative;
+}
+.zong .zi .diancan:before{
+    content: '';
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+    height: 0.06rem;
+    border-radius: 0.03rem;
+}
+.dcck{
+    width: 100%;
+    height: 9.7rem;
+    display: flex;
+
+}
+.dcck .dc1{
+    display: block;
+    width: 2.06rem;
+    height: 0.76rem;
+    border-top: 0.01rem solid #e4e1e3;
+    border-left: 0.01rem solid #e4e1e3;
+    border-right: 0.01rem solid #e4e1e3;
+    text-align: center;
+    font-size: 0.3rem;
+    line-height: 0.76rem;
+    margin-left: 0.24rem;
+    background: #f8f5f9;
+}
+.dcck .dc .dc2{
+    border-bottom:0.01rem solid #e4e1e3 ;
+}
+.dc3{
+    background: #ffffff;
+}
+.spl{
+    width: 5.1rem;
+    height: 9.7rem;
+    overflow: auto;
+}
+.spl .sp{
+    width: 100%;
+    height: 300%;
+}
+/*.sp1 .sp .shangping{*/
+    /*display: block;*/
+    /*width:100%;*/
+    /*height: 100%;*/
+/*}*/
+.sp ul .dan{
+    display: block;
+    width: 5rem;
+    height: 1.3rem;
+    display: flex;
+    margin-bottom: 0.2rem;
+}
+.dan img{
+    width: 1.6rem;
+    height: 1.3rem;
+    display: block;
+    margin-left: 0.08rem;
+    margin-top: 0.2rem;
+}
+.zi3{
+    width: 3.1rem;
+    height: 1.3rem;
+    margin-left: 0.1rem;
+    margin-top: 0.2rem;
+}
+.zi3 h6{
+    font-size:0.3rem;
+}
+.zi3 h2{
+    color: red;
+}
+.zi3 h1{
+    color: red;
+}
+.zi3 a i{
+    font-size: 0.2rem;
+    margin-left: 2.8rem;
+    margin-top: -0.32rem;
+    display: block;
+}
+.zi3 a i{
+    color: red;
+}
+.xiadanzong{
+    width: 100%;
+    height: 2.4rem;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background: black;
+}
+.xiadanzong .shang{
+    width: 100%;
+    height: 0.7rem;
+    background: blue;
+}
+.xiadanzong .shang .x{
+     width: 100%;
+     height: 0.44rem;
+     background: sandybrown;
+ }
+.xiadanzong .shang .x p{
+    display: block;
+    margin-left: 0.32rem;
+}
+.xiadanzong .shang .x .y{
+    float: right;
+}
+.xiadanzong .shang .x .y a{
+    display: block;
+    margin-top: -0.32rem;
+    margin-right: 0.4rem;
+
+}
+.xiadanzong .shang .s{
+    width: 100%;
+    height: 0.26rem;
+    background: salmon;
+    text-align: center;
+    line-height: 0.26rem;
+}
+.xiadanzong .xia{
+    width: 100%;
+    height: 0.95rem;
+    background: yellow;
+    position: relative;
+}
+.xia a{
+    width: 0.96rem;
+    height: 0.96rem;
+    background: red;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 0.48rem;
+    bottom: 0.2rem;
+}
+.xia a i{
+    font-size: 0.6rem;
+    line-height: 0.96rem;
+    text-align: center;
+    display: block;
+    color: #ffffff;
+}
+.xia .zfk{
+    width: 2.2rem;
+    height: 100%;
+    background: #4f4444;
+    float: right;
+    line-height: 0.95rem;
+    text-align: center;
+    color: white;
+    font-size: 0.24rem;
+}
+.xiadanzong .peisong .zhong{
+    width: 100%;
+    height: 0.78rem;
+    background: #f5f3f3;
+}
+.zhong .p1{
+    margin-left: 0.32rem;
+    line-height: 0.78rem;
+}
+.zhong .p2{
+    margin-left: 5.4rem;
+    line-height: 0.78rem;
+    margin-top: -0.8rem;
+    color: red;
+    font-size: 0.24rem;
+}
+.zhong .i1{
+    font-size: 0.24rem;
+    margin-top:-0.5rem;
+    margin-left: 6.06rem;
+    color: red;
+    display: block;
+}
+.zhong .i2{
+    font-size: 0.24rem;
+    margin-top:-0.28rem;
+    margin-left: 6.8rem;
+    color: red;
+    display: block;
+}

@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.16rem;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+.iconfont{
+    font-family:'iconfont' ;
+    font-style: normal;
+}
+.toubu{
+    width: 100%;
+    height: 4.28rem;
+    padding: 0.4rem 0.24rem;
+    box-sizing: border-box;
+    background-image: url("../img/jianbian.png");
+    background-size: cover;
+    position:relative;
+}
+.toubu .dhl{
+    width: 100%;
+    height: 0.88rem;
+
+}
+.dhl i{
+    color: white;
+    font-size: 0.44rem;
+    line-height: 0.88rem;
+    margin-left: -0.1rem;
+}
+.dizhi{
+    width: 100%;
+    height: 1.66rem;
+}
+.dizhi .ding span{
+    border: 0.01rem solid #ffffff;
+    color: #ffffff;
+}
+.dizhi .pin span{
+    font-size: 0.3rem;
+    color: #ffffff;
+}
+.dizhi .pin{
+    display: flex;
+    justify-content: space-between;
+}
+.dizhi p{
+    color: #ffffff;
+    display: block;
+    font-size: 0.22rem;
+}
+.dizhi p:nth-child(2){
+    font-size: 0.3rem;
+    margin-top: 0.26rem;
+}
+.dizhi .xingming{
+    margin-top: 0.26rem;
+}
+.dizhi .pin i{
+    font-size: 0.44rem;
+    color: #ffffff;
+    display: block;
+}
+.xia{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 3rem;
+    padding:0 0.24rem ;
+    box-sizing: border-box;
+}
+.xia .yi{
+    width: 100%;
+    height: 2.48rem;
+    border-radius: 0.15rem;
+    background: white;
+    box-shadow: 0 0.1rem 0.1rem 0.03rem rgb(215 215 215);
+}
+.xia .yi .yizheng{
+    width: 100%;
+    height: 1.22rem;
+    border-bottom: 0.04rem solid #ecebeb;
+    display: flex;
+    justify-content: space-between;
+}
+.xia .yi .erzheng{
+    width: 100%;
+    height: 1.22rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xia .yi .yizheng span{
+    display: block;
+    line-height: 1.22rem;
+}
+.xia .yi .song{
+    padding-left: 0.6rem;
+}
+.xia .yi .yizheng .yu{
+    color: red;
+}
+.xia .yi .yu{
+    padding-right: 0.6rem;
+}
+.xia .yi .yizheng .yu i {
+    color: red;
+}
+.xia .yi .yu .aye{
+    line-height: 1.22rem;
+}
+.xia .yi .erzheng span{
+    display: block;
+    line-height: 1.22rem;
+}
+.xia .yi .erzheng .yu{
+    color: red;
+}
+.xia .yi .erzheng .yu i {
+    color: red;
+}
+.yizheng i{
+    line-height: 1.22rem;
+}
+.zhifu{
+    width: 100%;
+    height: auto;
+    padding:0 0.24rem ;
+    box-sizing: border-box;
+    margin-top: 1.66rem;
+}
+.fangshi{
+    width: 100%;
+    height: 0.64rem;
+    border-radius: 0.15rem;
+    background: white;
+    box-shadow: 0 0.1rem 0.1rem 0.03rem rgb(215 215 215);
+    display: flex;
+    justify-content: center;
+}
+.fangshi span{
+    line-height: 0.64rem;
+    font-size: 0.36rem;
+}
+.fangshi .ancha .cha{
+    float: right;
+    display: block;
+    margin-right: -2.14rem;
+    color: #000000;
+    line-height: 0.64rem;
+}
+.zhanghu{
+    width: 100%;
+    height:1.2rem;
+    margin-top: 0.24rem;
+    border-radius: 0.15rem;
+    background: white;
+    box-shadow: 0 0.1rem 0.1rem 0.03rem rgb(215 215 215);
+    display: flex;
+    justify-content: space-between;
+}
+.zhanghu i{
+    font-size: 0.54rem;
+    color: red;
+    line-height: 1.2rem;
+    margin-left: 0.26rem;
+}
+.zhanghu span{
+    font-size: 0.3rem;
+    line-height: 1.2rem;
+    display: block;
+}
+.zhanghu .wancheng i{
+    color: #e1dede;
+    margin-right: 0.2rem;
+}
+.zhanghu .yue{
+    margin-left: -3.5rem;
+}
+.zhanghu1{
+    margin-top:0.12rem;
+}
+

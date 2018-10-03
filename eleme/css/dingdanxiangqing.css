@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.16rem;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+.iconfont{
+    font-family:'iconfont' ;
+    font-style: normal;
+}
+.toubu{
+    width: 100%;
+    height:auto;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+    background: url("../img/dingdan.png");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.toubu span{
+    width: 100%;
+    height: 0.44rem;
+    display: block;
+}
+.toubu .ding1{
+    line-height: 0.44rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #ffffff;
+}
+.toubu .ding2{
+    line-height: 0.44rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #ccc9c9;
+}
+.tuodong{
+    width: 100%;
+    height: 12rem;
+    margin-top: 1.28rem;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+}
+.tuodong1{
+    width: 100%;
+    height: 200%;
+}
+.shou{
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.15rem;
+    box-sizing: border-box;
+    margin: 0 0.02rem 0 0.02rem;
+    background: url("../img/dan.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.shou a{
+    display: block;
+    width: 1.2rem;
+    height: 0.3rem;
+    background: red;
+    border-radius: 0.15rem;
+    position: absolute;
+    top: 2.28rem;
+    left: 0.44rem;
+}
+.zlyd{
+    font-size: 0.18rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.3rem;
+    display: block;
+}
+.you{
+    width: 4.5rem;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.you .biaoti{
+    margin-top: 0.3rem;
+    font-size: 0.3rem;
+}
+.you .zimu{
+    margin-top: 0.14rem;
+    color: #c2c1c1;
+    font-size: 0.12rem;
+}
+.you .duanluo{
+    margin-top: 0.2rem;
+}
+.you .shijian {
+    margin-top: 0.46rem;
+    margin-left: 0.28rem;
+    display: block;
+    color: #b4b4b4;
+}
+.you .dizhi {
+    margin-top: -0.34rem;
+    margin-left: 1.8rem;
+    display: block;
+    color: #b4b4b4;
+}
+.you .youjian .youtou{
+    color: #d1cecd;
+    position: absolute;
+    top: -1.08rem;
+    right: -2.5rem;
+    font-size: 0.44rem;
+}
+.you .youjian{
+    background: none;
+    display: block;
+}
+.xiadaohang{
+    width: 100%;
+    height: 0.98rem;
+    background-image: url("../img/juxing2.png");
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.kong{
+    width: 100%;
+    height: 0.98rem;
+    background: #ffffff;
+
+}
+.kuang{
+    width: 100%;
+    height: auto;
+
+}
+.xiadaohang .xiao1{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+.xiao1 i{
+    display: block;
+    font-size: 0.4rem;
+    color: #ffffff;
+    margin-top: 0.08rem;
+    margin-bottom: 0.02rem;
+}
+.xiao1 p{
+    color: #ffffff;
+}
